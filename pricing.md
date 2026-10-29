@@ -17,4 +17,4 @@ Mis à jour le 30 octobre 2026. Entrepreneur individuel en franchise de TVA : pr
 
 ## Contact
 - alessio@benincasa.fr
-- Appel de trente minutes : [LIEN DE PRISE DE RENDEZ-VOUS À COMPLÉTER]
+- Appel de trente minutes : https://calendar.google.com/calendar/appointments/schedules/AcZssZ2lpFE27lD1ECaVWkGyMEkxyd2bDOdYjD3fOd-RYaZEkOzg0Xr5xxvLgsmwXppJTrsj6k2Pe4CJ
