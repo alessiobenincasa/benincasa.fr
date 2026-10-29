@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alessio Benincasa, Claude dans votre entreprise</title>
+<meta name="description" content="Alessio Benincasa installe Claude dans les services d'entreprises de taille intermédiaire et entretient chaque mois les compétences livrées. Formation sur place, plugin versionné, entretien à 400 € par mois.">
+<meta name="author" content="Alessio Benincasa">
+<link rel="canonical" href="https://benincasa.fr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alessio Benincasa, Claude dans votre entreprise">
+<meta property="og:description" content="Vos équipes ont essayé Claude. Trois semaines plus tard, plus personne ne s'en sert. J'installe des compétences qui tournent, et je les entretiens chaque mois.">
+<meta property="og:url" content="https://benincasa.fr/">
+<meta property="og:locale" content="fr_FR">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://benincasa.fr/#alessio",
+      "name": "Alessio Benincasa",
+      "jobTitle": "Consultant et formateur IA, spécialiste Claude en entreprise",
+      "url": "https://benincasa.fr/",
+      "email": "alessio@benincasa.fr",
+      "sameAs": [
+        "[URL LINKEDIN À COMPLÉTER]",
+        "[URL CHAÎNE YOUTUBE À COMPLÉTER]"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://benincasa.fr/#org",
+      "name": "Alessio Benincasa",
+      "url": "https://benincasa.fr/",
+      "founder": { "@id": "https://benincasa.fr/#alessio" },
+      "areaServed": "FR"
+    },
+    {
+      "@type": "Service",
+      "name": "Entretien mensuel de compétences Claude",
+      "provider": { "@id": "https://benincasa.fr/#org" },
+      "serviceType": "Maintenance de plugins et compétences Claude pour entreprises",
+      "areaServed": "FR",
+      "offers": [
+        { "@type": "Offer", "name": "Entretien", "price": "400", "priceCurrency": "EUR", "description": "Par mois. Une version du plugin par mois, changelog en français, évaluations repassées, mail et courte vidéo." },
+        { "@type": "Offer", "name": "Travail livré", "price": "1500", "priceCurrency": "EUR", "description": "Par mois. L'entretien, plus la chaîne d'agents tournée chaque mois sur vos données, avec votre contrôle." }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://benincasa.fr/",
+      "name": "Alessio Benincasa, Claude dans votre entreprise",
+      "dateModified": "2026-10-30",
+      "author": { "@id": "https://benincasa.fr/#alessio" },
+      "inLanguage": "fr-FR"
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  /* palette : blanc cassé froid, encre bleu nuit, un accent cuivre pour l'action ; les médailles n'ont rien à faire ici */
+  --paper:#f7f6f2; --ink:#1c2230; --ink-2:#55607a; --line:#dcd9d0; --accent:#b4552a; --accent-ink:#ffffff; --soft:#efe7df;
+  --display:"Bricolage Grotesque","Avenir Next","Segoe UI",sans-serif;
+  --body:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+  /* mise en page : une colonne de 68ch, les sections séparées par un filet, pas de héros plein écran */
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55}
+main{max-width:860px;margin:0 auto;padding:40px 20px 72px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(30px,5vw,46px);font-weight:700}
+h2{font-size:26px;font-weight:700;margin-top:56px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:19px;font-weight:700;margin-top:20px}
+p{margin:10px 0;max-width:68ch}
+.lede{font-size:21px;color:var(--ink-2);max-width:60ch}
+.kicker{font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:700;font-size:17px;padding:13px 22px;border-radius:8px;text-decoration:none;border:0;cursor:pointer}
+.btn:hover,.btn:focus{filter:brightness(.92)}
+.btn.secondary{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:22px}
+.proof{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:28px}
+.proof div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.proof strong{display:block;font-family:var(--display);font-size:22px}
+.proof span{color:var(--ink-2);font-size:15px}
+.steps{counter-reset:s;list-style:none;padding:0;display:grid;gap:14px;margin-top:16px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start}
+.steps li::before{content:counter(s);font-family:var(--display);font-weight:700;font-size:20px;width:40px;height:40px;border-radius:50%;background:var(--soft);display:grid;place-items:center}
+.tarifs{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:16px}
+.tarif{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px}
+.tarif .prix{font-family:var(--display);font-size:34px;font-weight:700;margin:6px 0}
+.tarif .prix small{font-size:16px;font-weight:400;color:var(--ink-2)}
+.tarif ul{padding-left:18px;margin:10px 0}
+.tarif li{margin:4px 0}
+.tarif.cible{border-color:var(--accent);box-shadow:0 0 0 3px var(--soft)}
+figure{margin:28px 0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}
+figure .cadre{aspect-ratio:16/9;background:var(--soft);border-radius:8px;display:grid;place-items:center;color:var(--ink-2);text-align:center;padding:20px}
+figcaption{font-size:14px;color:var(--ink-2);margin-top:8px}
+form.capture{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;margin-top:20px;max-width:560px}
+form.capture label{display:block;font-weight:600;margin-bottom:6px}
+form.capture .row{display:flex;flex-wrap:wrap;gap:10px}
+form.capture input[type=email]{flex:1 1 240px;font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:8px;background:#fff}
+form.capture input[type=email]:focus{outline:2px solid var(--accent);outline-offset:1px}
+form.capture small{display:block;color:var(--ink-2);margin-top:10px;font-size:14px}
+blockquote{margin:16px 0;padding:14px 18px;border-left:4px solid var(--accent);background:#fff;border-radius:0 10px 10px 0}
+blockquote footer{font-size:15px;color:var(--ink-2);margin-top:6px}
+details{border-top:1px solid var(--line);padding:12px 0}
+details summary{cursor:pointer;font-weight:600;font-family:var(--display);font-size:18px}
+details p{margin-top:8px}
+.note{font-size:15px;color:var(--ink-2)}
+footer.pied{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:14.5px;color:var(--ink-2)}
+footer.pied a{color:inherit}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:420px){main{padding:24px 16px 56px} body{font-size:17px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="kicker">Alessio Benincasa · consultant et formateur IA · France</p>
+  <h1>Vos équipes ont essayé Claude. Trois semaines plus tard, plus personne ne s'en sert.</h1>
+  <p class="lede">J'installe Claude dans vos services sur des tâches précises, je forme les gens sur place, et j'entretiens chaque mois les compétences livrées pour qu'elles continuent de tourner quand Claude et vos fichiers changent. Entretien à partir de 400 € par mois. Mis à jour le 30 octobre 2026.</p>
+  <div class="cta">
+    <a class="btn" href="#rendez-vous">Prendre trente minutes avec moi</a>
+    <a class="btn secondary" href="#fiche">Recevoir la fiche de cadrage</a>
+  </div>
+  <div class="proof">
+    <div><strong>11 services</strong><span>formés en 2026 dans une entreprise de taille intermédiaire, de la comptabilité au laboratoire [À NOMMER AVEC L'ACCORD DU CLIENT]</span></div>
+    <div><strong>1 plugin, 12 compétences</strong><span>livrées à un laboratoire industriel, versionnées, avec changelog en français [À CONFIRMER]</span></div>
+    <div><strong>Organisme déclaré</strong><span>numéro de déclaration d'activité 11941443494, ne vaut pas agrément de l'État</span></div>
+  </div>
+</header>
+
+<figure>
+  <div class="cadre">[VIDÉO DE 60 SECONDES : une compétence lancée dans un service, du fichier reçu au résultat, sans coupe. À tourner lundi 3 novembre.]</div>
+  <figcaption>Une compétence Claude en situation réelle : le fichier entre, le résultat sort, la personne vérifie.</figcaption>
+</figure>
+
+<h2>Ce qui se passe vraiment après une formation IA</h2>
+<p>Vous avez payé une journée de formation. Les gens étaient contents. Puis Claude a changé de version, un fichier a changé de colonne, et la compétence qui marchait a cessé de marcher. Personne chez vous n'a le temps de la reprendre. Alors chacun est revenu à ses copier-coller, et l'outil que vous payez dort dans un onglet.</p>
+<p>Ce n'est pas une question de bonne volonté. Une compétence livrée un jour J est figée ce jour-là, et rien de ce qui l'entoure ne l'est. Ce qui manque, ce n'est pas une formation de plus : c'est quelqu'un qui la fait vivre.</p>
+
+<h2>Ce que je fais, et ce que je ne fais pas</h2>
+<p>Je forme vos équipes sur leurs vraies tâches, dans leurs vrais fichiers, sur l'application Claude qu'elles utilisent déjà. Chaque tâche devient une compétence écrite, testée, que la personne lance elle-même. Ces compétences vivent dans un plugin versionné, branché par votre administrateur Claude, et c'est ce plugin que j'entretiens.</p>
+<p>Je ne vends pas d'heures à la chaîne, je ne remplace pas votre DSI, je ne livre pas de fichiers que personne ne reprendra. Je livre un résultat qui tient dans le temps, et j'en réponds.</p>
+
+<h2>Comment ça se passe</h2>
+<ol class="steps">
+  <li><div><strong>Trente minutes au téléphone.</strong> Vous me dites quelle tâche vous coûte le plus de temps dans quel service. Je vous dis si Claude peut la prendre, et à quelles conditions.</div></li>
+  <li><div><strong>Une journée sur place par service.</strong> On construit la compétence sur vos fichiers, les gens la lancent devant moi, on corrige jusqu'à ce qu'elle tienne. Vous repartez avec quelque chose qui tourne le soir même.</div></li>
+  <li><div><strong>L'entretien, chaque mois.</strong> Une version par mois, les évaluations repassées, un changelog en français, un mail et une courte vidéo. Quand Claude change, la compétence suit. Vous ne vous en occupez pas.</div></li>
+</ol>
+
+<h2 id="tarifs">Les prix</h2>
+<div class="tarifs">
+  <div class="tarif cible">
+    <p class="kicker">Entretien</p>
+    <p class="prix">400 € <small>par mois, par plugin</small></p>
+    <ul>
+      <li>Une version du plugin par mois</li>
+      <li>Évaluations repassées à chaque version</li>
+      <li>Changelog en français, mail et courte vidéo</li>
+      <li>Vos demandes de correction dans la version suivante</li>
+    </ul>
+    <p class="note">Sans engagement de durée. Arrêt à tout moment, le plugin reste chez vous.</p>
+  </div>
+  <div class="tarif">
+    <p class="kicker">Travail livré</p>
+    <p class="prix">1 500 € <small>par mois</small></p>
+    <ul>
+      <li>Tout l'entretien</li>
+      <li>La chaîne d'agents tournée chaque mois sur vos données, avec votre contrôle</li>
+      <li>Le résultat livré, pas seulement l'outil</li>
+    </ul>
+    <p class="note">Pour un service qui veut le travail fait, pas l'outil pour le faire.</p>
+  </div>
+</div>
+<p class="note">Les journées de formation et de construction se chiffrent sur devis, par service. Entrepreneur individuel en franchise de TVA : les prix sont nets. Détail lisible par les machines : <a href="/pricing.md">benincasa.fr/pricing.md</a>.</p>
+
+<h2>Ce que ça change</h2>
+<p>Dans trois mois, la personne qui passait une heure chaque lundi sur son tableau de bord le reçoit fait, vérifie trois chiffres et passe à autre chose. Le service a une compétence de plus chaque mois, parce que l'entretien absorbe aussi vos demandes. Et quand quelqu'un vous demande « on en est où avec l'IA », vous avez une réponse datée, versionnée, qui tourne.</p>
+<p>Sans entretien, le scénario est connu : les compétences du jour J tiennent six semaines, puis chacun revient à sa méthode, et la prochaine formation repart de zéro.</p>
+
+<blockquote>
+  <p>[TÉMOIGNAGE À RECUEILLIR : une phrase d'un référent de service formé en 2026, avec son prénom, sa fonction et son accord écrit.]</p>
+  <footer>[Prénom, fonction, entreprise]</footer>
+</blockquote>
+
+<h2 id="fiche">La fiche de cadrage, avant de me parler</h2>
+<p>Douze questions à se poser avant de confier une tâche à Claude dans un service : la tâche, le fichier, qui vérifie, ce qui ne doit jamais sortir. Une page, à remplir en dix minutes. Si vous répondez aux douze, vous savez si ça vaut un appel.</p>
+<form class="capture" method="post" action="[ACTION DE L'OUTIL D'EMAILING À COMPLÉTER]">
+  <label for="email">Votre adresse email professionnelle</label>
+  <div class="row">
+    <input type="email" id="email" name="email" required autocomplete="email" placeholder="prenom@entreprise.fr">
+    <button class="btn" type="submit">Recevoir la fiche</button>
+  </div>
+  <small>Vous recevez la fiche tout de suite, puis un email par semaine avec une tâche réglée à l'écran. Désinscription en un clic, à chaque envoi. Aucune autre utilisation de votre adresse.</small>
+</form>
+
+<h2 id="rendez-vous">Trente minutes pour savoir si c'est pour vous</h2>
+<p>Un appel, pas une démonstration. Vous décrivez la tâche, je vous dis si Claude la prend, ce que ça coûte et ce que ça demande chez vous. Si la réponse est non, je vous le dis au téléphone.</p>
+<div class="cta">
+  <a class="btn" href="[LIEN DE PRISE DE RENDEZ-VOUS À COMPLÉTER]">Prendre trente minutes avec moi</a>
+  <span class="note">ou par mail : alessio@benincasa.fr</span>
+</div>
+
+<h2>Questions qu'on me pose</h2>
+<details><summary>Nous avons déjà des licences Claude. Pourquoi un entretien ?</summary><p>La licence vous donne l'outil. L'entretien fait que les compétences construites sur vos tâches continuent de marcher quand l'outil et vos fichiers changent. Ce sont deux choses différentes, et la seconde est celle qui manque dans toutes les entreprises que j'ai vues.</p></details>
+<details><summary>Qui installe le plugin chez nous ?</summary><p>Votre administrateur Claude, depuis les réglages de l'organisation, en quelques minutes, à partir d'un dépôt privé. Je lui fournis la marche à suivre. Sur un poste individuel, chacun installe lui-même, je montre comment le jour de la formation.</p></details>
+<details><summary>Où vont nos données ?</summary><p>Dans votre organisation Claude, sous votre contrat. Je ne garde aucun fichier client sur mon poste après une séance, et aucune donnée ne sert à entraîner un modèle dans un abonnement entreprise. Je vous détaille ce point par écrit avant la première séance.</p></details>
+<details><summary>Et si on arrête ?</summary><p>Vous gardez le plugin dans sa dernière version. Il continue de fonctionner tel quel, sans mise à jour. Pas de durée minimale, pas de frais de sortie.</p></details>
+<details><summary>Vous travaillez avec quel type d'entreprise ?</summary><p>Des entreprises de taille intermédiaire, de cinquante à quelques centaines de personnes, où chaque service a une ou deux tâches qui mangent des heures chaque semaine. Un service à la fois, en commençant par celui qui a le plus à y gagner.</p></details>
+
+<h2>Un mot de moi</h2>
+<p>J'ai formé des équipes entières à Claude cette année, et je suis revenu voir ce qu'il en restait quelques semaines plus tard. Trop souvent, rien. Pas par manque d'intérêt : parce qu'une compétence livrée un jour J est orpheline le lendemain. J'ai construit cette offre pour ne plus jamais livrer un fichier que personne ne reprend. Ce que je vous vends, c'est que ça continue de marcher, et que c'est moi qui m'en occupe.</p>
+<p>Alessio Benincasa</p>
+
+<footer class="pied">
+  <p>Alessio Benincasa, entrepreneur individuel, [SIRET À COMPLÉTER], [ADRESSE À COMPLÉTER]. Organisme de formation déclaré sous le numéro 11941443494 auprès du préfet de région d'Île-de-France ; cet enregistrement ne vaut pas agrément de l'État. Hébergement : [HÉBERGEUR À COMPLÉTER]. <a href="/mentions-legales.html">Mentions légales et confidentialité</a>. Page mise à jour le 30 octobre 2026.</p>
+</footer>
+
+</main>
+</body>
+</html>
