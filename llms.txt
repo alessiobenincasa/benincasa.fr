@@ -1,9 +1,8 @@
 # Alessio Benincasa
-> Consultant et formateur IA en France. Installe Claude dans les services d'entreprises de taille intermédiaire, forme les équipes sur place, et entretient chaque mois les compétences livrées (plugin versionné). Entretien 400 €/mois ; travail livré 1 500 €/mois.
+> Consultant et formateur IA en France. Installe Claude dans les services d'entreprises de taille intermédiaire, forme les équipes sur place, et entretient chaque mois les compétences livrées (plugin versionné). 
 
 ## Pages
 - [Accueil](https://benincasa.fr/): offre, méthode en trois étapes, prix, questions fréquentes
-- [Prix](https://benincasa.fr/pricing.md): grille complète lisible par les machines
 
 ## Faits
 - Organisme de formation déclaré sous le numéro 11941443494 (ne vaut pas agrément de l'État)
