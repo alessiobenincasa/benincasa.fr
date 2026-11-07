@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Mesure d'audience (Google Analytics 4, balise GTM-T22F2G8M). Rien ne se charge avant le consentement du visiteur ; choix gardé dans son navigateur. -->
+<!-- Mesure d'audience (Google Analytics 4, balise G-KB3FQDVTQW). Rien ne se charge avant le consentement du visiteur ; choix gardé dans son navigateur. -->
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-function mesureCharger(){if(window._mesure)return;window._mesure=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id=GTM-T22F2G8M';document.head.appendChild(s);gtag('js',new Date());gtag('consent','update',{analytics_storage:'granted'});}
+function mesureCharger(){if(window._mesure)return;window._mesure=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-KB3FQDVTQW';document.head.appendChild(s);gtag('js',new Date());gtag('consent','update',{analytics_storage:'granted'});gtag('config','G-KB3FQDVTQW');}
 function mesureChoix(ok){try{localStorage.setItem('mesure',ok?'oui':'non');}catch(e){}var b=document.getElementById('consentement');if(b)b.remove();if(ok)mesureCharger();}
 try{if(localStorage.getItem('mesure')==='oui')mesureCharger();}catch(e){}
 </script>
