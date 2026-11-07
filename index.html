@@ -7,7 +7,7 @@
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
-function mesureCharger(){if(window._mesure)return;window._mesure=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-KB3FQDVTQW';document.head.appendChild(s);gtag('js',new Date());gtag('consent','update',{analytics_storage:'granted'});gtag('config','G-KB3FQDVTQW');}
+function mesureCharger(){if(window._mesure)return;window._mesure=1;gtag('consent','update',{analytics_storage:'granted'});gtag('js',new Date());gtag('config','G-KB3FQDVTQW');var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-KB3FQDVTQW';document.head.appendChild(s);}
 function mesureChoix(ok){try{localStorage.setItem('mesure',ok?'oui':'non');}catch(e){}var b=document.getElementById('consentement');if(b)b.remove();if(ok)mesureCharger();}
 try{if(localStorage.getItem('mesure')==='oui')mesureCharger();}catch(e){}
 </script>
