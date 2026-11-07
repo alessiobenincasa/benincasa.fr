@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Mesure d'audience (Google Analytics 4, balise GTM-T22F2G8M). Rien ne se charge avant le consentement du visiteur ; choix gardé dans son navigateur. -->
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+function mesureCharger(){if(window._mesure)return;window._mesure=1;var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id=GTM-T22F2G8M';document.head.appendChild(s);gtag('js',new Date());gtag('consent','update',{analytics_storage:'granted'});}
+function mesureChoix(ok){try{localStorage.setItem('mesure',ok?'oui':'non');}catch(e){}var b=document.getElementById('consentement');if(b)b.remove();if(ok)mesureCharger();}
+try{if(localStorage.getItem('mesure')==='oui')mesureCharger();}catch(e){}
+</script>
 <title>Alessio Benincasa, Claude dans votre entreprise</title>
 <meta name="description" content="Alessio Benincasa installe Claude dans les services d'entreprises de taille intermédiaire et entretient chaque mois les compétences livrées. Formation sur place, et des compétences qui restent à jour chaque mois.">
 <meta name="author" content="Alessio Benincasa">
@@ -117,6 +125,10 @@ a{color:var(--accent)}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:420px){main{padding:24px 16px 56px} body{font-size:17px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+#consentement{position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:14px 18px;box-shadow:0 8px 30px rgba(0,0,0,.12);z-index:50;font-size:15px}
+#consentement p{margin:0 0 10px}#consentement .choix{margin:0}
+#consentement button{font-family:var(--display);font-weight:700;font-size:15px;padding:9px 16px;border-radius:8px;border:0;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+#consentement button.secondaire{background:var(--soft);color:var(--ink)}
 </style>
 </head>
 <body>
@@ -191,5 +203,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 </footer>
 
 </main>
+
+<div id="consentement" role="dialog" aria-label="Mesure d'audience" style="display:none">
+  <p>Ce site mesure son audience avec Google Analytics pour savoir d'où viennent ses visiteurs. Aucune publicité, aucune revente. <a href="mentions-legales.html">En savoir plus</a>.</p>
+  <p class="choix"><button type="button" onclick="mesureChoix(true)">Accepter</button> <button type="button" class="secondaire" onclick="mesureChoix(false)">Refuser</button></p>
+</div>
+<script>try{if(!localStorage.getItem('mesure')){document.getElementById('consentement').style.display='block';}}catch(e){document.getElementById('consentement').style.display='block';}</script>
 </body>
 </html>
